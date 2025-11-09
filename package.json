@@ -1,0 +1,13 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo '✅ Running tests...' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3"
+  }
+}

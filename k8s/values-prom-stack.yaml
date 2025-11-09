@@ -1,0 +1,7 @@
+grafana:
+  adminPassword: admin
+  service:
+    type: NodePort
+prometheus:
+  prometheusSpec:
+    scrapeInterval: 15s
